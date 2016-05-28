@@ -17,3 +17,10 @@ ul.list-sidebar li{
 .no-padding{
 	padding:0 !important;
 }
+.copyright {
+text-align: center;
+}
+
+.posttitle{font-size: 20px; color:;padding: 0px;margin: 0px;}
+.fa-commenting-o{color:#dfdfdf;}
+.fa-user{color:#dfdfdf;}
