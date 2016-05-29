@@ -30,6 +30,9 @@ padding: 17px;
 
 
 /*limon*/
+body{
+	font-family: 'Raleway', sans-serif;
+}
 .border-bottom{
 	border-bottom: 1px solid #eee;
 }
