@@ -77,10 +77,25 @@ ul.list-footer{
     margin: 0;
 }
 ul.list-footer li{
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid #737373;
 	padding:5px 10px;
+}
+.footer-border{
+	border-bottom: 1px solid #737373;
 }
 .top-spacing{
 	padding-top:10px;
+}
+.list-footer a {
+	color: #fff !important;
+}
+.list-footer a:hover, .list-footer a:focus{
+	color: #999 !important;
+}
+.footer-recent-posts a{
+	color: #fff !important;
+}
+.footer-recent-posts a:hover, .footer-recent-posts a:focus{
+	color: #999 !important;
 }
 /*limon*/
