@@ -1,4 +1,6 @@
 /*Custom css*/
 .seperator{padding-top:10px;padding-bottom: 10px;border: 1px solid red; }
 .posthr{color:#F8F8F8;}
-.posttitle{font-size: 20px; color:;}
+.posttitle{font-size: 20px; color:;padding: 0px;margin: 0px;}
+.fa-commenting-o{color:#dfdfdf;}
+.fa-user{color:#dfdfdf;}
