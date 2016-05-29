@@ -28,6 +28,7 @@ ul.social-media li{
 }
 .copyright {
 text-align: center;
+padding: 17px;
 }
 
 /*CSS Done by Kamrul*/
@@ -36,11 +37,12 @@ text-align: center;
 
 .fa-commenting-o{color:#a8a8a8;}
 .fa-user,.fa-clock-o{color:#a8a8a8;}
-.footer1{border-right:1px solid #F8F8F8; }
+.footer1{border-right:1px solid #0c0c0c; }
 
 .fa-commenting-o{color:#dfdfdf;}
 .fa-user{color:#dfdfdf;}
 .seperator{padding: 20px;}
-.footer{margin-bottom:30px; }
+.footer{background:rgba(0,0,0,0.7);padding-top: 25px;padding-bottom: 25px;color: #f1f1f1;}
 .spadding{padding: 2px;}
+.copyrightarea{background:rgba(0,0,0,0.6);}
 
