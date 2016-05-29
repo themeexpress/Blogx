@@ -2,14 +2,31 @@
 .seperator{padding-top:10px;padding-bottom: 10px;border: 1px solid red; }
 .posthr{color:#F8F8F8;}
 .posttitle{font-size: 20px; color:;}
-
-
+.border-bottom{
+	border-bottom:1px solid #337ab7;
+}
+ul.list-sidebar{
+	list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.list-sidebar li{
+	border-bottom:1px solid #337ab7;
+	padding:5px 10px;
+}
+.no-padding{
+	padding:0 !important;
+}
 .copyright {
 text-align: center;
 }
 
 .posttitle{font-size: 20px; color:;padding: 0px;margin: 0px;}
+
 .fa-commenting-o{color:#a8a8a8;}
 .fa-user,.fa-clock-o{color:#a8a8a8;}
 .footer1{border-right:1px solid #F8F8F8; }
+
+.fa-commenting-o{color:#dfdfdf;}
+.fa-user{color:#dfdfdf;}
 
