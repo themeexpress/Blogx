@@ -1,7 +1,7 @@
 /*Custom css*/
-.seperator{padding-top:10px;padding-bottom: 10px;border: 1px solid red; }
+
 .posthr{color:#F8F8F8;}
-.posttitle{font-size: 20px; color:;}
+.posttitle{color:;}
 .border-bottom{
 	border-bottom:1px solid #337ab7;
 }
@@ -20,7 +20,7 @@ ul.list-sidebar li{
 .copyright {
 text-align: center;
 }
-
+/*CSS Done by Kamrul*/
 .posttitle{font-size: 20px; color:;padding: 0px;margin: 0px;}
 
 .fa-commenting-o{color:#a8a8a8;}
@@ -29,4 +29,6 @@ text-align: center;
 
 .fa-commenting-o{color:#dfdfdf;}
 .fa-user{color:#dfdfdf;}
+.seperator{padding: 20px;}
+.footer{margin-bottom:30px; }
 
