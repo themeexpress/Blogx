@@ -71,4 +71,16 @@ nav.nav-bar{
 .navbar-nav > li > a:hover, .navbar-nav > li > a:focus{
 	color: #999 !important;
 }
+ul.list-footer{
+	list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul.list-footer li{
+	border-bottom: 1px solid #eee;
+	padding:5px 10px;
+}
+.top-spacing{
+	padding-top:10px;
+}
 /*limon*/
