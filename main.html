@@ -11,6 +11,12 @@
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -66,8 +72,24 @@
           <div class="container"><!--main content area-->
               <div class="row">
                   <div class="col-md-8"><!--content area-->
-                  <h3>latest Posts</h3>
-                  <hr class="latestposthr"/>
+                    <div class="row"><!--Slider Start-->
+                      <div class="col-md-12 slider">
+                        <!--<img class="img-responsive" src="image/slider1.jpg" alt="">-->
+                        <div class="slider-wrapper theme-default">
+                            <div id="slider" class="nivoSlider">
+                                <img src="image/slider1.jpg" data-thumb="image/slider1.jpg" alt="" title="#htmlcaption"/>
+                                <img src="image/slider2.jpg" data-thumb="image/slider2.jpg" alt="" data-transition="slideInLeft" />
+                                <img src="image/slider3.jpg" data-thumb="image/slider3.jpg" alt="" title="#htmlcaption" />
+                                <img src="image/slider4.jpg" data-thumb="images/up.jpg" alt="" title="This is an example of a caption" /></a>
+                            </div>
+                            <div id="htmlcaption" class="nivo-html-caption">
+                                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+                            </div>
+                            </div>
+                      </div>
+                    </div><!--Slider End-->
+                      <h3>Latest Posts</h3>
+                      <hr class="latestposthr"/>
                       <div class="row">
                         <div class="col-md-4">
                           <img src="image/one.jpg" alt="..." class="img-thumbnail">
@@ -336,6 +358,12 @@
     <script src="js/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
   </body>
 </html>
 
