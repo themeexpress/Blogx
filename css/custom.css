@@ -89,6 +89,9 @@ ul.list-footer li{
 .top-spacing{
 	padding-top:10px;
 }
+.left-margin-sidebarboth{
+	margin-left:50px;
+}
 .list-footer a {
 	color: #fff !important;
 }
